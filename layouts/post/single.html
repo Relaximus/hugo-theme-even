@@ -27,8 +27,6 @@
     <!-- TOC -->
     {{- partial "post/toc.html" . -}}
 
-    <!-- Social sharing -->
-    {{- partial "post/socials.html" . -}}
 
     <!-- Outdated Info Warning -->
     {{- partial "post/outdated-info-warning.html" . -}}
@@ -38,6 +36,8 @@
       {{ .Content }}
     </div>
 
+    <!-- Social sharing -->
+    {{- partial "post/socials.html" . -}}
 
     <!-- Copyright -->
     {{- partial "post/copyright.html" . -}}
